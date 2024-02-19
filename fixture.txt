@@ -1,0 +1,6 @@
+### top level spec marker is "###"
+  - subspec marker is "-"
+    - subsubspec marker is also "-"
+      - example marker is also "-"
+  - example at shallow level "-"
+### top level example marker is "###"
