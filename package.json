@@ -6,7 +6,18 @@
   "scripts": {
     "test": "node --test --test-reporter=./index.mjs test.mjs | diff -u ./fixture.txt -"
   },
-  "keywords": [],
+  "keywords": [
+    "node:test",
+    "reporter"
+  ],
+  "files": [
+    "CHANGELOG.md",
+    "README.md",
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "author": {
     "name": "Takuto WADA",
     "email": "takuto.wada@gmail.com",
