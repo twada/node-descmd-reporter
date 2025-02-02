@@ -2,26 +2,26 @@
   "name": "@twada/specmd-reporter",
   "version": "0.0.0",
   "description": "Node Test reporter that generates API spec description for README",
-  "main": "index.mjs",
-  "scripts": {
-    "test": "node --test --test-reporter=./index.mjs test.mjs | diff -u ./fixture.txt -"
-  },
   "keywords": [
     "node:test",
     "reporter"
   ],
-  "files": [
-    "CHANGELOG.md",
-    "README.md",
-    "index.js"
-  ],
-  "publishConfig": {
-    "access": "public"
-  },
+  "license": "MIT",
   "author": {
     "name": "Takuto WADA",
     "email": "takuto.wada@gmail.com",
     "url": "https://github.com/twada"
   },
-  "license": "MIT"
+  "main": "index.mjs",
+  "files": [
+    "CHANGELOG.md",
+    "README.md",
+    "index.js"
+  ],
+  "scripts": {
+    "test": "node --test --test-reporter=./index.mjs test.mjs | diff -u ./fixture.txt -"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }
