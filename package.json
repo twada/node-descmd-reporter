@@ -1,16 +1,16 @@
 {
-  "name": "node-specmd-reporter",
+  "name": "node-descmd-reporter",
   "version": "0.0.0",
-  "description": "Node Test reporter that generates spec description in Markdown",
+  "description": "Node Test reporter that generates description tree in Markdown",
   "keywords": [
     "node:test",
     "reporter"
   ],
-  "homepage": "http://github.com/twada/node-specmd-reporter",
-  "bugs": "https://github.com/twada/node-specmd-reporter/issues",
+  "homepage": "http://github.com/twada/node-descmd-reporter",
+  "bugs": "https://github.com/twada/node-descmd-reporter/issues",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/twada/node-specmd-reporter.git"
+    "url": "git+ssh://git@github.com/twada/node-descmd-reporter.git"
   },
   "license": "MIT",
   "author": {

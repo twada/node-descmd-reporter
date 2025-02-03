@@ -1,7 +1,7 @@
-node-specmd-reporter
+node-descmd-reporter
 ================================
 
-Node Test reporter that generates spec description in Markdown
+Node Test reporter that generates description tree in Markdown
 
 [![NPM version][npm-image]][npm-url]
 [![License][license-image]][license-url]
@@ -11,20 +11,20 @@ INSTALL
 ---------------------------------------
 
 ```sh
-$ npm install --save-dev node-specmd-reporter
+$ npm install --save-dev node-descmd-reporter
 ```
 
 USAGE
 ---------------------------------------
 
 ```sh
-node --test --test-reporter node-specmd-reporter ...
+node --test --test-reporter node-descmd-reporter ...
 ```
 
 SPEC
 ---------------------------------------
 
-### Spec MD Reporter: generates spec description in Markdown
+### DescMD Reporter: generates description tree in Markdown
   - when rendering top level tests:
     - renders bullet list marker `-` at the beginning of a line, followed by test title
   - when top level suites enclose tests:
@@ -47,8 +47,8 @@ LICENSE
 ---------------------------------------
 Licensed under the [MIT](https://twada.mit-license.org) license.
 
-[npm-url]: https://www.npmjs.com/package/node-specmd-reporter
-[npm-image]: https://badge.fury.io/js/node-specmd-reporter.svg
+[npm-url]: https://www.npmjs.com/package/node-descmd-reporter
+[npm-image]: https://badge.fury.io/js/node-descmd-reporter.svg
 
 [license-url]: https://twada.mit-license.org
 [license-image]: https://img.shields.io/badge/license-MIT-brightgreen.svg
