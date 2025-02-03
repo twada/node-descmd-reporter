@@ -28,7 +28,7 @@
   },
   "main": "./index.mjs",
   "files": [
-    "index.js",
+    "index.mjs",
     "README.md",
     "CHANGELOG.md",
     "package.json"
