@@ -1,7 +1,7 @@
 {
-  "name": "@twada/specmd-reporter",
+  "name": "node-specmd-reporter",
   "version": "0.0.0",
-  "description": "Node Test reporter that generates spec description for README",
+  "description": "Node Test reporter that generates spec description in Markdown",
   "keywords": [
     "node:test",
     "reporter"
@@ -37,8 +37,5 @@
   },
   "engines": {
     "node": ">=22.12.0"
-  },
-  "publishConfig": {
-    "access": "public"
   }
 }
