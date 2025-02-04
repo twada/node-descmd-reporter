@@ -34,7 +34,12 @@
     "package.json"
   ],
   "scripts": {
+    "lint": "eslint index.mjs",
+    "lint:fix": "eslint index.mjs --fix",
     "test": "node --test --test-reporter=./index.mjs test.mjs | diff -u ./fixture.txt -"
+  },
+  "devDependencies": {
+    "neostandard": "^0.12.0"
   },
   "engines": {
     "node": ">=22.12.0"
