@@ -5,6 +5,7 @@ Node Test reporter that generates description tree in Markdown
 
 [![Build Status][ci-image]][ci-url]
 [![NPM version][npm-image]][npm-url]
+[![Code Style][style-image]][style-url]
 [![License][license-image]][license-url]
 ![Supported Node Version](https://img.shields.io/node/v/node-descmd-reporter)
 
@@ -54,6 +55,9 @@ Licensed under the [MIT](https://twada.mit-license.org) license.
 
 [npm-url]: https://www.npmjs.com/package/node-descmd-reporter
 [npm-image]: https://badge.fury.io/js/node-descmd-reporter.svg
+
+[style-url]: https://github.com/neostandard/neostandard
+[style-image]: https://img.shields.io/badge/code_style-neostandard-brightgreen?style=flat
 
 [license-url]: https://twada.mit-license.org
 [license-image]: https://img.shields.io/badge/license-MIT-brightgreen.svg
