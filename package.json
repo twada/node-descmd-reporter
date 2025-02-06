@@ -1,6 +1,6 @@
 {
   "name": "node-descmd-reporter",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Node Test reporter that generates description tree in Markdown",
   "keywords": [
     "node:test",
