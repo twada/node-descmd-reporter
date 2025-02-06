@@ -1,6 +1,6 @@
 import { Transform } from 'node:stream';
 
-const customReporter = new Transform({
+const nodeDescmdReporter = new Transform({
   writableObjectMode: true,
   transform (event, encoding, callback) {
     switch (event.type) {
@@ -13,7 +13,7 @@ const customReporter = new Transform({
         callback(null);
       }
     }
-  },
+  }
 });
 
-export default customReporter;
+export default nodeDescmdReporter;
