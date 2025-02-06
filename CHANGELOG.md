@@ -1,3 +1,11 @@
+## [1.0.0](http://github.com/twada/node-descmd-reporter/releases/tag/v1.0.0) (2025-02-06)
+
+
+#### Features
+
+* the first stable release
+
+
 ### [0.1.1](http://github.com/twada/node-descmd-reporter/releases/tag/v0.1.1) (2025-02-04)
 
 
